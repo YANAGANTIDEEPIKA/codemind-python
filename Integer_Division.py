@@ -1,5 +1,5 @@
 def div(n):
-    re=n//10
-    print(re)
+    d=n//10
+    print(d)
 n=int(input())
 div(n)
