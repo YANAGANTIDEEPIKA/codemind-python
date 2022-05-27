@@ -1,7 +1,9 @@
+def rev(n):
+    re=0
+    while(n!=0):
+        r=n%10
+        re=re*10+r
+        n//=10
+    return re
 n=int(input())
-re=0
-while(n!=0):
-    r=n%10
-    re=re*10+r
-    n//=10
-print(re)
+print(rev(n))
