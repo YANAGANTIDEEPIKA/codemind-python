@@ -1,10 +1,10 @@
-N=int(input())
-t1=0
-while(N!=0):
-    r=N%10
-    if(r>t1):
-        l=r
-        t1=l
-    N//=10
-print(l)
-    
+def large(n):
+    l=0
+    while(n!=0):
+        r=n%10
+        if(r>l):
+            l=r
+        n//=10
+    return l
+n=int(input())
+print(large(n))
