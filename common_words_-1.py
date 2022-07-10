@@ -1,6 +1,5 @@
 s1=input().lower()
 s2=input().lower()
-#print(s1)
 a=s1.split(" ")
 b=s2.split(" ")
 c=0
