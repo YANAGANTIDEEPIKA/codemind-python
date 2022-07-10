@@ -1,0 +1,7 @@
+s=input()
+x=s.replace(" ","")
+min=min(x)
+max=max(x)
+c1=s.count(min)
+c2=s.count(max)
+print(min,c1,max,c2,end=' ')
